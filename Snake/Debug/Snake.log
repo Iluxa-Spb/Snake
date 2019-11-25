@@ -1,0 +1,91 @@
+﻿Сборка начата 25.11.2019 16:31:32.
+     1>Проект "D:\Илья\С++\Курсовая 01.01.2019\Snake\Snake\Snake.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Visual Studio 2013\SFML-2.4.2.32\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Coordinates.cpp Field.cpp main.cpp snake.cpp Score.cpp
+         Score.cpp
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\library.h(2): warning C4068: неизвестная директива pragma
+         snake.cpp
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\library.h(2): warning C4068: неизвестная директива pragma
+         main.cpp
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\library.h(2): warning C4068: неизвестная директива pragma
+         Field.cpp
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\library.h(2): warning C4068: неизвестная директива pragma
+         Coordinates.cpp
+         Создание кода...
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\field.cpp(119): warning C4715: Field::setDirection: значение возвращается не при всех путях выполнения
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\field.cpp(269): warning C4715: Field::checkField2: значение возвращается не при всех путях выполнения
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\field.cpp(211): warning C4715: Field::checkOver: значение возвращается не при всех путях выполнения
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\field.cpp(296): warning C4715: Field::checkItem: значение возвращается не при всех путях выполнения
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\field.cpp(236): warning C4715: Field::checkField: значение возвращается не при всех путях выполнения
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Visual Studio 2013\SFML-2.4.2.32" /I"D:\Visual Studio 2013\SFML-2.4.2.32\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt functions.cpp
+         functions.cpp
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\library.h(2): warning C4068: неизвестная директива pragma
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(39): warning C4305: аргумент: усечение из "double" к "float"
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(122): warning C4551: в вызове функции отсутствует список аргументов
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(123): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(181): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(183): warning C4258: i: определение из цикла for игнорируется; используется определение из внешней области видимости
+                 d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(176): пропуск определения "i"
+                 d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(169): используется определение "i"
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(217): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(251): warning C4553: ==: оператор не имеет результата; возможно, имелся в виду "="
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(266): warning C4305: аргумент: усечение из "double" к "float"
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(280): warning C4305: аргумент: усечение из "double" к "float"
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(373): warning C4305: аргумент: усечение из "double" к "float"
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(95): warning C4101: symbol: неиспользованная локальная переменная
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(93): warning C4101: name: неиспользованная локальная переменная
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(382): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(387): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(388): warning C4305: аргумент: усечение из "double" к "float"
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(427): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(431): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(441): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(447): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(453): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(459): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(468): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(472): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(476): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(480): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(485): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(490): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(495): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(500): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(505): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(509): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(513): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(517): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(546): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(547): warning C4305: аргумент: усечение из "double" к "float"
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(551): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(588): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(592): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(602): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(608): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(614): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(620): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(628): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(632): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(636): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(640): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(645): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(650): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(655): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(660): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(665): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(669): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(673): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\илья\с++\курсовая 01.01.2019\snake\snake\functions.cpp(677): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Илья\С++\Курсовая 01.01.2019\Snake\Debug\Snake.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Visual Studio 2013\SFML-2.4.2.32\lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" "sfml-audio-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Илья\С++\Курсовая 01.01.2019\Snake\Debug\Snake.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Илья\С++\Курсовая 01.01.2019\Snake\Debug\Snake.lib" /MACHINE:X86 Debug\Coordinates.obj
+         Debug\Field.obj
+         Debug\functions.obj
+         Debug\main.obj
+         Debug\snake.obj
+         Debug\Score.obj
+         Snake.vcxproj -> D:\Илья\С++\Курсовая 01.01.2019\Snake\Debug\Snake.exe
+     1>Сборка проекта "D:\Илья\С++\Курсовая 01.01.2019\Snake\Snake\Snake.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:07.58
